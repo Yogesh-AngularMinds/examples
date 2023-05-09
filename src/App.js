@@ -9,7 +9,7 @@ const App = () => {
       {/* React Examples UseRef
       <UseRef /> */}
 
-      {/* UseMemo*/}
+      {/* Useemo*/}
       <UseMemo />
     </div>
   );
