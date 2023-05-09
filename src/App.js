@@ -3,13 +3,13 @@ import React from "react";
 import UseRef from "./useRef/UseRef";
 import UseMemo from "./useMemo/UseMemo";
 
-const App = () => {
+const App = () => { 
   return (
     <div>
       {/* React Examples UseRef
       <UseRef /> */}
 
-      {/* useMemo*/}
+      {/* UseMemo*/}
       <UseMemo />
     </div>
   );
