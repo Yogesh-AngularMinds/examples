@@ -5,6 +5,7 @@ import UseMemo from "./useMemo/UseMemo";
 import UseCallback from "./useCallback/UseCallback";
 import UseContext from "./useContext/UseContext";
 import UseReducer from "./useReducer/UseReducer";
+import Memo from "./memo/Memo";
 
 const App = () => {
   return (
@@ -20,7 +21,8 @@ const App = () => {
 
        {/* useContext
       <UseContext /> */}
-      <UseReducer/>
+          {/* <UseReducer/> */}
+          <Memo/>
     </div>
   );
 };
