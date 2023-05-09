@@ -2,6 +2,7 @@
 import React from "react";
 import UseRef from "./useRef/UseRef";
 import UseMemo from "./useMemo/UseMemo";
+import UseCallback from "./useCallback/UseCallback";
 
 const App = () => { 
   return (
@@ -10,7 +11,9 @@ const App = () => {
       <UseRef /> */}
 
       {/* Useemo*/}
-      <UseMemo />
+      {/* <UseMemo /> */}
+       useCallback   
+      <UseCallback />
     </div>
   );
 };
