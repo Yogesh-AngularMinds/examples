@@ -28,7 +28,7 @@ const App = () => {
 
       {/* ----------------------------Theory Based Components----------------------------*/}
       {/* <CodeSplitting/> */}
-      {/* <ReactDom/> */}
+      <ReactDom/>
     </div>
   );
 };
