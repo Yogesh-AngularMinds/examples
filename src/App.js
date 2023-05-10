@@ -6,6 +6,8 @@ import UseCallback from "./useCallback/UseCallback";
 import UseContext from "./useContext/UseContext";
 import UseReducer from "./useReducer/UseReducer";
 import Memo from "./memo/Memo";
+import CodeSplitting from "./Theory/CodeSplitting";
+import ReactDom from "./Theory/ReactDom";
 
 const App = () => {
   return (
@@ -17,12 +19,16 @@ const App = () => {
       {/* <UseMemo /> */}
 
       {/* useCallback   
-      <UseCallback /> */}      
+      <UseCallback /> */}
 
-       {/* useContext
+      {/* useContext
       <UseContext /> */}
-          {/* <UseReducer/> */}
-          <Memo/>
+      {/* <UseReducer/> */}
+      {/* <Memo/> */}
+
+      {/* ----------------------------Theory Based Components----------------------------*/}
+      {/* <CodeSplitting/> */}
+      {/* <ReactDom/> */}
     </div>
   );
 };
