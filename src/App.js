@@ -12,7 +12,7 @@ import ReactDom from "./Theory/ReactDom";
 const App = () => {
   return (
     <div>
-      React Examples UseRef
+      {/* React Examples UseRef
         <UseRef />
 
       Useemo
@@ -24,10 +24,10 @@ const App = () => {
       useContext
       <UseContext />
       <UseReducer/>
-      <Memo/>
+      <Memo/> */}
 
       {/* ----------------------------Theory Based Components----------------------------*/}
-      <CodeSplitting/>
+      {/* <CodeSplitting/> */}
       <ReactDom/>
     </div>
   );
