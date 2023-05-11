@@ -2,81 +2,8 @@ import React from "react";
 
 function ReactDom() {
   return (
-    <div>
-      <p>
-        <strong>What is ReactDOM?</strong>&nbsp;
-      </p>
-      <p>
-        ReactDOM is a package that provides DOM specific methods that can be
-        used at the top level of a web app to enable an efficient way of
-        managing DOM elements of the web page. ReactDOM provides the developers
-        with an API containing the following methods and a few more.&nbsp;
-      </p>
-      <ul>
-        <li>render()</li>
-        <li>findDOMNode()</li>
-        <li>unmountComponentAtNode()</li>
-        <li>hydrate()</li>
-        <li>createPortal()</li>
-      </ul>
-      <p>
-        <strong>Pre-requisite:</strong> To use the ReactDOM in any React web app
-        we must first import ReactDOM from the react-dom package by using the
-        following code snippet:&nbsp;&nbsp;
-      </p>
-      <p style={{ textAlign: "center" }}>
-        <strong>render() Function</strong>
-      </p>
-      <p>
-        This is one of the most important methods of ReactDOM. This function is
-        used to render a single React Component or several Components wrapped
-        together in a Component or a div element. This function uses the
-        efficient methods of React for updating the DOM by being able to change
-        only a subtree, efficient diff methods, etc.&nbsp;
-      </p>
-      <p>
-        <strong>Syntax</strong>:&nbsp;
-      </p>
-      <pre>ReactDOM.render(element, container, callback)</pre>
-      <p>
-        <strong>Parameters</strong>: This method can take a maximum of three
-        parameters as described below.&nbsp;&nbsp;
-      </p>
-      <ul>
-        <li>
-          <strong>element:</strong> This parameter expects a JSX expression or a
-          React Element to be rendered.
-        </li>
-        <li>
-          <strong>container:</strong> This parameter expects the container in
-          which the element has to be rendered.
-        </li>
-        <li>
-          <strong>callback:</strong> This is an optional parameter that expects
-          a function that is to be executed once the render is complete.
-        </li>
-      </ul>
-      <p>
-        <strong>Return Type:</strong> This function returns a reference to the
-        component or null if a stateless component was rendered.&nbsp;
-        <br />
-        &nbsp;
-      </p>
-
+    <div className="p-5">
       <div class="text">
-        <p>
-          In the previous article on{" "}
-          <a href="https://www.geeksforgeeks.org/reactjs-introduction-jsx/">
-            introduction to JSX
-          </a>
-          , we learned that we can use JSX to store HTML markups within
-          Javascript variables. Now, ReactJS is a library to build active User
-          Interfaces thus rendering is one of the integral parts of ReactJS.
-          React provides the developers with a package{" "}
-          <strong>react-dom</strong>
-          a.k.a ReactDOM to access and modify the DOM. Let’s see in brief what
-          is the need of having the package.&nbsp;
-        </p>
         <p>
           <strong>What is DOM?</strong>&nbsp;
         </p>
