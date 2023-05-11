@@ -16,7 +16,7 @@ const App = () => {
         <UseRef /> */}
 
       {/* Useemo*/}
-      {/* <UseMemo /> */}
+      <UseMemo />
 
       {/* useCallback   
       <UseCallback /> */}
